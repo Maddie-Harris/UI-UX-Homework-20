@@ -1,0 +1,108 @@
+/*START BODY*/
+  body {
+    font-family: Acumin Pro;
+    font-weight: 500;
+    font-size: 16px;
+    color:#191919;
+    background-color: #F9F9F9;
+    overflow-x: hidden;
+  }
+
+/*END BODY*/
+
+/*START FONTS*/
+  h7 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+  h8 {
+    font: 300;
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+/*END FONTS*/
+
+/*START NAVIGATION*/
+  .behanceNav {
+    background-color: white !important;
+    filter: drop-shadow(1px 0px 1px rgba(0, 0, 0, 0.25));
+  }
+  .navLinks {
+    font-weight: bold;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    line-height: 12px;
+    color:#191919;
+  }
+
+  .adobeSearch {
+    border-radius: 100px;
+  }
+
+  .adobeButtonOne {
+    background-color: #0057ff;
+    color: white;
+    font-size: 14px;
+    vertical-align: baseline;
+    font-weight: 600;
+    border-radius: 100px;
+    width: fit-content auto;
+    border: 1px solid transparent;
+  }
+  .adobeButtonOne:hover {
+    background-color: #003ecb;
+    border: 1px solid transparent;
+  }
+/*END NAVIGATION*/
+
+/*START CASE STUDY TITLE*/
+  .projectTitle {
+    display: grid;
+    justify-content: center;
+    margin-left: 15%;
+    width: 75%;
+    grid-template-columns: 4% 96%;
+    grid-template-rows: 3% 3% 94%;
+    margin-bottom: 1%;
+  }
+
+  .avatar{
+    display: flex;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-image: url("../images/profilePic4040.png");
+    background-repeat: no-repeat center;
+  }
+/*END CASE STUDY TITLE*/
+
+/*START SIDEBAR*/
+/*END SIDEBAR*/
+
+/*START CASE STUDY*/
+  @media only screen and (max-width: 850px) {
+   .caseStudyImage {
+     display: flex;
+     align-content: center;
+     width: 100vw;
+     height: auto;
+     margin: 0;
+    }
+  }
+
+  @media only screen and (min-width: 850px) {
+   .caseStudyImage {
+     display: flex;
+     justify-content: center;
+     height: auto;
+     padding: 0;
+     width: 75%;
+     margin-left: 15%;
+     margin-right: 25%;
+    }
+  }
+/*END CASE STUDY TITLE*/
+
+/*START OTHER WORKS*/
+/*END OTHER WORKS*/
